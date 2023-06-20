@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.websiteLogo {
+  height: 50px;
+  padding: 20px;
+}
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.giMenu {
+  font-size: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.popup-container {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 1000px;
+}
+.closeIcon {
+  font-size: 30px;
+}
+.popupHome {
+  font-family: roboto;
+  margin-left: 20px;
+}
+.popupAlignment {
+  display: flex;
+  align-items: center;
+}
+.react-icon {
+  font-size: 30px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.hamburgerButton {
+  background-color: transparent;
+  border-width: 0px;
+}
+.popup-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.closeButtonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.homeIconsContainer {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
